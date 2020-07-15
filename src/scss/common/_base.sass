@@ -1,0 +1,95 @@
+html 
+  box-sizing: border-box
+
+*,
+*::before,
+*::after 
+  box-sizing: inherit
+
+body 
+  font-family: "Roboto", Arial, Helvetica, sans-serif
+  color: $dark-gray
+  font-weight: 300
+  line-height: 1.7
+
+h1
+  font-size: $font-size-2
+  @include breakpoint(l) 
+    font-size: $font-size-1
+
+h2
+  font-size: $font-size-2
+
+h3,
+h4,
+h5,
+h6
+  font-size: $font-size-4
+  @include breakpoint(l) 
+    font-size: $font-size-3
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  margin: 0
+  margin-bottom: .5em
+  font-weight: 600
+
+  marign: 0
+  line-height: $line-height-title
+  font-weight: 700 
+
+a 
+  color: $dark-gray
+  text-decoration: none
+  transition: all 0.2s ease
+  box-shadow: 0px -3px 0px 0px lighten($blue, 30%) inset
+  &:hover
+    box-shadow: 0px -16px 0px 0px lighten($blue, 30%) inset
+
+
+img 
+  height: auto
+
+
+input 
+  -webkit-appearance: none
+  border-radius: none
+
+code 
+  @extend .f6
+
+  font-family: monospace !important
+  border-radius: 30px
+  background-color: #f4f4f4
+  padding: 0.3rem 0.7rem
+
+pre
+  background-color: #f4f4f4 !important
+  padding: 1rem !important
+  overflow-x: scroll
+  margin-bottom: 1rem
+  font-family: monospace !important
+  border-left: 3px solid $blue
+
+  @extend .ma0
+  @extend .mb4
+
+  code 
+    border-radius: none
+
+iframe 
+  width: 100%
+  border: none !important
+  margin-bottom: 1em
+
+figure 
+  margin: 0
+  margin-bottom: .5em
+
+strong 
+  font-weight: bold
+

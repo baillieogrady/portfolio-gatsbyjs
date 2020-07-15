@@ -1,0 +1,18 @@
+-- to do --
+
+post page - seperate headings and content more*
+Everywhere - Offline support
+post page - related posts
+Post page - code block formatting / colouring
+Everywhere - proptypes
+Post page - nimiq miner
+
+-- snagging --
+
+archive - redundant divs when spitting out categories
+Everywhere - code splitting
+Everywhere - convert to markdown
+
+-- learn --
+
+Graphql - Fragments
